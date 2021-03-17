@@ -3,22 +3,25 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: blue;
+    background-color: brown
+  
  
 }
 .form-sign{
-    flex-direction: column;
-    display: flex;
-    margin: 8px 0;
-    justify-content: center;
-    background: white;
-    padding: 30px;
-    width: 200px;
-    height: 400px;
+
+    background-color:white;
+    padding:50px 50px;
+ 
     
+}
+input[type=text] , input[type=password]{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 ;
+    padding: 8px 4px;
+    width: 300px;
    
-}
-.sign{
-    height: 30px;
-    margin-bottom: 8px;
-}
+ 
+}  
+
+    
