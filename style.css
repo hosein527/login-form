@@ -38,15 +38,39 @@ input[type=text] , input[type=password]{
     border-bottom: solid 1px #fff;
     outline: none;
     font-size: 15px;
+    margin-bottom: 35px;
    
  
 }
-input{
-    color: #fff;
-    margin-bottom: 30px;
-}
+
+
 label{
     color: #fff;
+   
 }  
+button{
+    position: relative;
+    margin-bottom: 25px;
+    top:35px ;
+    left: 100px;
+    border: none;
+    padding : 11px 20px 11px 20px ;
+    letter-spacing: 2px;
+    font-weight:bolder;
+    cursor: pointer;
+    color:  #03e9f4;
+    background: transparent;
+    border: solid  1px #03e9f4;
+    outline: none;
+}
+button:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
 
     
