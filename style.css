@@ -3,25 +3,50 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: brown
+    background: linear-gradient(#141e30, #243b55);
   
  
 }
 .form-sign{
 
-    background-color:white;
-    padding:50px 50px;
+    background-color:rgba(0 0,0,.5);
+    
+  
+    
+    padding :40px;
+    
+    background: rgba(0,0,0,.5);
+    
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
  
     
+}
+h2{
+    text-align: center;
+    color: #fff;
+    margin: 0 0 49px;
 }
 input[type=text] , input[type=password]{
     display: flex;
     flex-direction: column;
-    margin: 5px 0 ;
+    color: #fff;
     padding: 8px 4px;
     width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #fff;
+    outline: none;
+    font-size: 15px;
    
  
+}
+input{
+    color: #fff;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
 }  
 
     
